@@ -277,7 +277,7 @@ v01
 Text Notes 8250 7650 0    60   ~ 0
 5/31/17
 Text Notes 7350 7500 0    60   ~ 0
-HiBeam 8-Stick
+HiBeams 8-Stick
 $Comp
 L +5V #PWR12
 U 1 1 591A0A66
