@@ -277,7 +277,7 @@ v01
 Text Notes 8250 7650 0    60   ~ 0
 5/31/17
 Text Notes 7350 7500 0    60   ~ 0
-HiBeams 8-Stick
+Lumenati 8-Stick
 $Comp
 L +5V #PWR07
 U 1 1 591A0A66
