@@ -59,7 +59,7 @@ LIBS:SparkFun-Sensors
 LIBS:SparkFun-Switches
 LIBS:APA102
 LIBS:apa102c
-LIBS:HiBeam_8-Stick-cache
+LIBS:Lumenati_8-Stick-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -273,7 +273,7 @@ F 3 "" H 2200 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 10600 7650 0    60   ~ 0
-v01
+v10
 Text Notes 8250 7650 0    60   ~ 0
 5/31/17
 Text Notes 7350 7500 0    60   ~ 0
