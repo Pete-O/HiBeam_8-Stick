@@ -1,9 +1,9 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
-    (links 0)
-    (no_connects 0)
-    (area 0 0 0 0)
+    (links 1338)
+    (no_connects 418)
+    (area 9.830999 9.830999 154.761001 171.525001)
     (thickness 1.6)
     (drawings 772)
     (tracks 4280)
@@ -15,7 +15,7 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -24,7 +24,7 @@
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
-    (40 Dwgs.User user)
+    (40 Dwgs.User user hide)
     (41 Cmts.User user)
     (42 Eco1.User user)
     (43 Eco2.User user)
@@ -66,11 +66,11 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.524 1.524)
-    (pad_drill 0.762)
+    (pad_size 0.99822 0.99822)
+    (pad_drill 0)
     (pad_to_mask_clearance 0.1016)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFFFF)
+    (visible_elements 7FFC77FF)
     (pcbplotparams
       (layerselection 0x00030_ffffffff)
       (usegerberextensions false)
@@ -3317,7 +3317,7 @@
       (net 1 GND))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994E482)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0EC9) (tstamp 5994E482)
     (at 92.6846 30.3276)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -3329,7 +3329,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:STAND-OFF_115_2 (layer F.Cu) (tedit 59160095) (tstamp 5994E475)
@@ -3558,7 +3558,7 @@
       (net 6 "Net-(U2-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994E402)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0EDD) (tstamp 5994E402)
     (at 92.6846 45.1866)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -3570,7 +3570,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module SFE_Connectors:1X04_NO_SILK (layer F.Cu) (tedit 5930184F) (tstamp 5994E3EB)
@@ -3817,7 +3817,7 @@
       (net 2 +5V))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994E36E)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0EF6) (tstamp 5994E36E)
     (at 92.6846 60.0456)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -3829,7 +3829,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 5994E361)
@@ -4249,7 +4249,7 @@
       (net 2 +5V))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994E282)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0ECD) (tstamp 5994E282)
     (at 134.5946 30.3022)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -4261,7 +4261,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 5994E275)
@@ -4497,7 +4497,7 @@
       (net 2 +5V))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994E1F8)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0EE3) (tstamp 5994E1F8)
     (at 134.5946 45.1612)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -4509,10 +4509,10 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994E1F4)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0EFC) (tstamp 5994E1F4)
     (at 134.5946 60.0202)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -4524,10 +4524,10 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994E1F0)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F1E) (tstamp 5994E1F0)
     (at 134.5946 74.8792)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -4539,7 +4539,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module SFE_Connectors:1X04_NO_SILK (layer F.Cu) (tedit 59301887) (tstamp 5994E1D9)
@@ -5341,7 +5341,7 @@
       (net 12 "Net-(U5-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994E029)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F17) (tstamp 5994E029)
     (at 92.6846 74.9046)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -5353,7 +5353,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:STAND-OFF_115_2 (layer F.Cu) (tedit 59160095) (tstamp 5994E01C)
@@ -5379,7 +5379,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2.921 2.921) (drill 2.921) (layers *.Cu *.Mask))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994E018)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F2E) (tstamp 5994E018)
     (at 92.6846 89.7636)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -5391,7 +5391,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module SFE_Connectors:1X04_NO_SILK (layer F.Cu) (tedit 5930184F) (tstamp 5994E001)
@@ -5784,7 +5784,7 @@
       (net 2 +5V))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994DF39)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F41) (tstamp 5994DF39)
     (at 92.6846 104.6226)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -5796,7 +5796,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994DF22)
@@ -5883,7 +5883,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2.921 2.921) (drill 2.921) (layers *.Cu *.Mask))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994DF04)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F33) (tstamp 5994DF04)
     (at 134.5946 89.7382)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -5895,7 +5895,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 5994DEF7)
@@ -6135,7 +6135,7 @@
       (net 12 "Net-(U5-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994DE7A)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F47) (tstamp 5994DE7A)
     (at 134.5946 104.5972)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -6147,7 +6147,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 5994DE6D)
@@ -6486,7 +6486,7 @@
       (net 1 GND))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994DDB5)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F55) (tstamp 5994DDB5)
     (at 92.6846 119.4816)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -6498,7 +6498,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 5994DDA8)
@@ -6754,7 +6754,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2.921 2.921) (drill 2.921) (layers *.Cu *.Mask))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994DD28)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F6B) (tstamp 5994DD28)
     (at 92.6846 134.3406)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -6766,7 +6766,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994DD11)
@@ -6868,7 +6868,7 @@
       (net 17 /DI) (solder_mask_margin 0.1016))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994DCE9)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F5B) (tstamp 5994DCE9)
     (at 134.5946 119.4562)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -6880,7 +6880,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module SFE_Connectors:1X04_NO_SILK (layer F.Cu) (tedit 59301887) (tstamp 5994DCD2)
@@ -6921,7 +6921,7 @@
       (net 2 +5V))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994DCCE)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F70) (tstamp 5994DCCE)
     (at 134.5946 134.3152)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -6933,7 +6933,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994DCB7)
@@ -7311,7 +7311,7 @@
       (net 12 "Net-(U5-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994DBF9)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F91) (tstamp 5994DBF9)
     (at 134.5946 149.1742)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -7323,7 +7323,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module SFE_Connectors:1X04_NO_SILK (layer F.Cu) (tedit 59301887) (tstamp 5994DBE2)
@@ -7502,7 +7502,7 @@
       (net 16 "Net-(U7-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994DB93)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0FAC) (tstamp 5994DB93)
     (at 134.5946 164.0332)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -7514,7 +7514,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module SFE_Connectors:1X04_NO_SILK (layer F.Cu) (tedit 59301887) (tstamp 5994DB7C)
@@ -7761,7 +7761,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2.921 2.921) (drill 2.921) (layers *.Cu *.Mask))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994DAFF)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F8C) (tstamp 5994DAFF)
     (at 92.6846 149.1996)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -7773,7 +7773,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:STAND-OFF_115_2 (layer F.Cu) (tedit 59160095) (tstamp 5994DAF2)
@@ -7898,7 +7898,7 @@
       (net 1 GND))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994DAB3)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0FA6) (tstamp 5994DAB3)
     (at 92.6846 164.0586)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -7910,7 +7910,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 5994DAA6)
@@ -8675,7 +8675,7 @@
       (net 16 "Net-(U7-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994D1C3)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0EC3) (tstamp 5994D1C3)
     (at 71.7296 30.3022)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -8687,7 +8687,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994D1AC)
@@ -8893,7 +8893,7 @@
       (net 2 +5V))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994D150)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0EBE) (tstamp 5994D150)
     (at 29.8196 30.3276)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -8905,7 +8905,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994D139)
@@ -9474,7 +9474,7 @@
       (net 16 "Net-(U7-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994CF7E)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0ED8) (tstamp 5994CF7E)
     (at 71.7296 45.1612)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -9486,7 +9486,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994CF67)
@@ -9692,7 +9692,7 @@
       (net 2 +5V))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994CF0B)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0ED3) (tstamp 5994CF0B)
     (at 29.8196 45.1866)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -9704,7 +9704,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994CEF4)
@@ -10273,7 +10273,7 @@
       (net 16 "Net-(U7-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994CD39)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0EEF) (tstamp 5994CD39)
     (at 71.7296 60.0202)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -10285,7 +10285,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994CD22)
@@ -10491,7 +10491,7 @@
       (net 2 +5V))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994CCC6)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0EEA) (tstamp 5994CCC6)
     (at 29.8196 60.0456)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -10503,7 +10503,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994CCAF)
@@ -11072,7 +11072,7 @@
       (net 16 "Net-(U7-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994C8AF)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F11) (tstamp 5994C8AF)
     (at 71.7296 74.8792)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -11084,7 +11084,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994C898)
@@ -11290,7 +11290,7 @@
       (net 2 +5V))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994C83C)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F0C) (tstamp 5994C83C)
     (at 29.8196 74.9046)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -11302,7 +11302,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994C825)
@@ -11871,7 +11871,7 @@
       (net 16 "Net-(U7-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994C66A)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F29) (tstamp 5994C66A)
     (at 71.7296 89.7382)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -11883,7 +11883,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994C653)
@@ -12089,7 +12089,7 @@
       (net 2 +5V))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994C5F7)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F25) (tstamp 5994C5F7)
     (at 29.8196 89.7636)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -12101,7 +12101,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994C5E0)
@@ -12670,7 +12670,7 @@
       (net 16 "Net-(U7-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994C425)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F3C) (tstamp 5994C425)
     (at 71.7296 104.5972)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -12682,7 +12682,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994C40E)
@@ -12888,7 +12888,7 @@
       (net 2 +5V))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994C3B2)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F38) (tstamp 5994C3B2)
     (at 29.8196 104.6226)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -12900,7 +12900,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994C39B)
@@ -13469,7 +13469,7 @@
       (net 16 "Net-(U7-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994C1E0)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F50) (tstamp 5994C1E0)
     (at 71.7296 119.4562)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -13481,7 +13481,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994C1C9)
@@ -13687,7 +13687,7 @@
       (net 2 +5V))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994C16D)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F4C) (tstamp 5994C16D)
     (at 29.8196 119.4816)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -13699,7 +13699,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994C156)
@@ -14268,7 +14268,7 @@
       (net 16 "Net-(U7-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994BF9B)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F68) (tstamp 5994BF9B)
     (at 71.7296 134.3152)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -14280,7 +14280,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994BF84)
@@ -14486,7 +14486,7 @@
       (net 2 +5V))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994BF28)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F63) (tstamp 5994BF28)
     (at 29.8196 134.3406)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -14498,7 +14498,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994BF11)
@@ -15067,7 +15067,7 @@
       (net 16 "Net-(U7-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 5994BB11)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F87) (tstamp 5994BB11)
     (at 71.7296 149.1742)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -15079,7 +15079,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994BAFA)
@@ -15285,7 +15285,7 @@
       (net 2 +5V))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 5994BA9E)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F83) (tstamp 5994BA9E)
     (at 29.8196 149.1996)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -15297,7 +15297,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 5994BA87)
@@ -16057,7 +16057,7 @@
       (net 2 +5V))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 5930190C) (tstamp 594CAFEE)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0F9D) (tstamp 594CAFEE)
     (at 29.8196 164.0586)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -16069,10 +16069,10 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
-  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 59301923) (tstamp 594CAFF3)
+  (module FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0FA2) (tstamp 594CAFF3)
     (at 71.7296 164.0332)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -16084,7 +16084,7 @@
     (fp_text value FIDUCIAL1X2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask))
   )
 
   (module Pete:STAND-OFF_115_2 (layer F.Cu) (tedit 59160095) (tstamp 593F5660)
@@ -16133,7 +16133,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2.921 2.921) (drill 2.921) (layers *.Cu *.Mask))
   )
 
-  (module Aesthetics:FIDUCIAL-FRAME-1_5MM (layer F.Cu) (tedit 59724755) (tstamp 5995BDD1)
+  (module Aesthetics:FIDUCIAL-FRAME-1_5MM (layer F.Cu) (tedit 599B0F96) (tstamp 5995BDD1)
     (at 13.97 162.814)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -16144,11 +16144,11 @@
     (fp_text value Val** (at 0 2.54) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 1.5 1.5) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd circle (at 0 0) (size 1.5 1.5) (layers F.Cu F.Mask)
       (solder_mask_margin 0.1016))
   )
 
-  (module Aesthetics:FIDUCIAL-1X2 (layer F.Cu) (tedit 200000) (tstamp 5996645A)
+  (module Aesthetics:FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0FB1) (tstamp 5996645A)
     (at 150.876 161.925)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -16159,11 +16159,11 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask)
       (solder_mask_margin 0.1016))
   )
 
-  (module Aesthetics:FIDUCIAL-1X2 (layer F.Cu) (tedit 200000) (tstamp 5996645F)
+  (module Aesthetics:FIDUCIAL-1X2 (layer F.Cu) (tedit 599B0FD4) (tstamp 5996645F)
     (at 150.876 18.415)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -16174,7 +16174,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask)
       (solder_mask_margin 0.1016))
   )
 
